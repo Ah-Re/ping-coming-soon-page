@@ -1,0 +1,193 @@
+html, body {
+    font-family: 'Libre Franklin';
+    font-size: 15px;
+    margin: 0;
+}
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.logo-image {
+    display: block;
+    margin: 5rem auto 1rem;
+}
+
+.thin-title {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+.launching-soon-message {
+    font-size: 25px;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.subscribe-message {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.email-input {
+    border: solid 1px hsl(223, 100%, 88%);
+   border-radius: 25px;
+   font-size: 15px;
+   margin-bottom: 1rem;
+   padding: 1rem;
+   width: 280px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+
+
+.email-error-message {
+    color: hsl(354, 100%, 66%);
+    display: none;
+    font-size: 13px;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+}
+
+.email-input-error-state {
+    border: 2px solid hsl(354, 100%, 66%);
+}
+
+.email-subscription {
+
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.notify-button {
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 25px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    display: block;
+    font-family: 'Libre Franklin';
+    font-size: 15px;
+    font-weight: 600;
+    padding: 1rem;
+    width: 300px;
+    margin: auto;
+}
+
+.notify-button:hover {
+    cursor: pointer;
+    filter: brightness(1.30);
+}
+.dashboard-image {
+    
+    margin: 4rem 0 2rem;
+    text-align: center;
+    width: 300px;
+}
+
+.social-media-icons {
+    color: hsl(223, 87%, 63%);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+.image {
+    text-align: center;
+}
+
+.insta-icon {
+    border: 2px solid lightgray;
+    border-radius: 19px;
+    padding: 0.7rem;
+    cursor: pointer;
+    
+    
+}
+
+.insta-icon:hover {
+    filter: brightness(1.30);
+}
+
+.facebook-icon {
+    border: 2px solid lightgray;
+    border-radius: 19px;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.facebook-icon:hover {
+    filter: brightness(1.30);
+}
+
+.twitter-icon {
+    border: 2px solid lightgray;
+    border-radius: 23px;
+    padding: 0.7rem;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.twitter-icon:hover {
+    filter: brightness(1.30);
+}
+
+.footer-paragraph {
+    color: hsl(0, 0%, 59%);
+    margin-top: 3rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .notify-button {
+        display: inline-block;
+        width: 150px;
+    }
+
+    .email-error-message {
+        margin-right: 12rem;
+        left: 0;
+    }
+
+    .dashboard-image {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .notify-button {
+        display: inline-block;
+        width: 150px;
+    }
+
+    .launching-soon-message {
+        font-size: 35px;
+    }
+
+    .subscribe-message {
+        font-size: 17px;
+    }
+
+    .dashboard-image {
+        width: 550px;
+    }
+}
+
+
+
+
+
+
+
